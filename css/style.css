@@ -1,0 +1,381 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../assets/bg-main-mobile.png);
+  background-position: right -200px top -200px;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  padding: 40px 24px 0 24px;
+}
+
+.logo {
+  width: 146.093px;
+  height: 32px;
+}
+
+.headerTitle-Paragraph {
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.title {
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #191826;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.455px;
+}
+
+.audioParagraph {
+  color: #191826;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+main {
+  margin-top: 166px;
+  height: 926px;
+}
+
+.eQSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #191826;
+  background-image: url(../assets/bg-pattern-2.svg);
+  background-position: top;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  height: 600px;
+}
+
+.phoneImageParent {
+  width: 208.972px;
+  height: 430px;
+  margin-top: -98px;
+}
+
+.phoneImageParent img {
+  height: 100%;
+  width: 100%;
+}
+
+.premiumeQCard {
+  max-width: 375px;
+  margin-top: 48px;
+  padding: 48px 36px;
+  border-radius: 12px;
+  background-color: #fa7453;
+}
+
+.premiumCardTitle {
+  color: #fcfaf9;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+}
+.premiumCardParagraph {
+  margin-top: 12px;
+  color: #fcfaf9;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.priceParent {
+  margin-top: 36px;
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+
+.priceParent h3 {
+  color: #fcfaf9;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.priceParent span {
+  color: #fcfaf9;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+}
+
+.downloadBtns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttonDownload {
+  width: 296px;
+  height: 61px;
+  border-radius: 12px;
+  text-align: center;
+  font-family: "IBM Plex Sans", sans-serif;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.18px;
+}
+
+.buttonDownload {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 8px;
+}
+
+.IosDownload {
+  margin-top: 32px;
+  background-color: #191826;
+  color: #fcfaf9;
+}
+
+.AndroidDownload {
+  margin-top: 16px;
+  background-color: #fcfaf9;
+  color: #191826;
+}
+
+footer {
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 24px 80px 24px;
+}
+
+.logo-Copyright {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+
+.pParent p {
+  color: #191826;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.pParent p span {
+  color: #191826;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100px;
+  margin-top: 64px;
+}
+
+@media screen and (min-width: 500px) {
+  main {
+    padding: 0 19px;
+  }
+  .premiumeQCard {
+    max-width: 380px;
+  }
+  .phoneImageParent {
+    width: 250px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url(../assets/bg-main-tablet.png);
+    background-position: right -170px top -370px;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  header {
+    padding: 62px 209px 0 39px;
+    background-image: url(../assets/bg-pattern-1.svg);
+    background-position: right -35px top -35px;
+    background-size: 266px;
+    background-repeat: no-repeat;
+  }
+  .title {
+    font-size: 64px;
+    line-height: 64px;
+  }
+
+  .audioParagraph {
+    font-size: 18px;
+    line-height: 28px;
+    width: 514px;
+  }
+
+  main {
+    padding: 0 39px 0 33px;
+    height: 834px;
+  }
+
+  .eQSection {
+    padding: 0 58px 0 64px;
+    align-items: normal;
+    justify-content: center;
+  }
+
+  .phoneImageParent {
+    width: 270.206px;
+    height: 556px;
+  }
+
+  .phoneImageParent {
+    margin-top: 40px;
+  }
+
+  .premiumeQCard {
+    min-width: 400px;
+    margin-top: -284px;
+    margin-left: auto;
+  }
+
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .logo-Copyright {
+    width: 366px;
+  }
+
+  .pParent {
+    width: 366px;
+  }
+}
+
+@media screen and (min-width: 964px) {
+  body {
+    background-image: url(../assets/bg-main-desktop.png);
+    background-position: right -170px top -370px;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  header {
+    padding: 62px 250px 0 100px;
+    background-image: url(../assets/bg-pattern-1.svg);
+    background-position: right 0px top -35px;
+    background-size: 312px;
+    background-repeat: no-repeat;
+  }
+
+  .title {
+    font-size: 75px;
+    line-height: 75px;
+  }
+
+  .audioParagraph {
+    font-size: 20px;
+    line-height: 34px;
+    max-width: 625px;
+  }
+
+  main {
+    padding: 0 110px 0 110px;
+  }
+
+  footer {
+    padding: 0px 100px 81px 100px;
+  }
+
+  .IosDownload:hover {
+    background-color: #66e2dc;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .AndroidDownload:hover {
+    background: #ffb964;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .icons {
+    overflow: hidden;
+  }
+
+  .icons a:hover {
+    overflow: hidden;
+    filter: drop-shadow(0px 100px 0 #fa7453);
+    transform: translateY(-100px);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  header {
+    padding: 62px 260px 0 165px;
+  }
+
+  .title {
+    font-size: 88px;
+    line-height: 88px;
+  }
+
+  .audioParagraph {
+    font-size: 20px;
+    line-height: 34px;
+    width: 825px;
+  }
+
+  main {
+    padding: 0 165px 0 165px;
+  }
+
+  .eQSection {
+    padding: 0 95px 0 108px;
+    background-position: left 280px top 0;
+    background-size: 35%;
+  }
+
+  footer {
+    padding: 0px 165px 81px 165px;
+    align-items: center;
+  }
+
+  .logo-Copyright {
+    width: auto;
+    flex-direction: row;
+    column-gap: 137px;
+  }
+  .pParent {
+    width: 366px;
+  }
+}
+
+@media screen and (max-width: 382px) {
+  .premiumeQCard {
+    width: 100%;
+  }
+}
